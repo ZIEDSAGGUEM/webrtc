@@ -17,7 +17,7 @@ function VideoCall() {
       Math.floor(Math.random() * 10000) + "";
     const userID = Math.floor(Math.random() * 10000) + "";
     const userName = user.name + user._id;
-    const appID = 1404746525;
+    const appID = """""""";
     const serverSecret = "e09ddaa37915f4afea6f2901a20d3628";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
